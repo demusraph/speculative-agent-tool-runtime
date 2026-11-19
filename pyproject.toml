@@ -1,0 +1,14 @@
+[project]
+name = "speculative-agent-tool-runtime"
+version = "0.1.0"
+description = "Low-latency speculative execution engine for AI agent tool calls."
+dependencies = [
+    "pydantic>=2.0.0",
+    "fastapi>=0.100.0",
+    "uvicorn>=0.23.0",
+    "numpy>=1.24.0"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
